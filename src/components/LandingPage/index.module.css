@@ -1,0 +1,14 @@
+#main {
+    text-align: center;
+    margin-top: 30vh;
+}
+
+@media (max-width: 768px) {
+    .video {
+        display: inline !important;
+    }
+}
+
+#main hr {
+    width: 30vw;
+}
