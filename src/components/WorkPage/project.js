@@ -8,12 +8,12 @@ const Project = (props) => {
         return (
             <Fade>
                 <div className={styles.project}>
-                    <Link to='/projects/portfolio' className={styles.link}>
+                    <Link to='/work/portfolio' className={styles.link}>
                         <h3 className={styles.header}>
                             {props.projectTitle}
                         </h3>
                     </Link>
-                    <Link to='/projects/portfolio' className={styles.link}>
+                    <Link to='/work/portfolio' className={styles.link}>
                         <div className={styles.picContainer}>
                             <img className={styles.pic} src={props.pic} alt={props.picAlt} />
                         </div>
