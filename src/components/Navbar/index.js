@@ -2,39 +2,37 @@ import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import resume from '../../static/WinggoTse_Resume.pdf';
-// import './index.module.css';
+// import styles from './index.module.css';
 
 const Header = () => {
     return (
-        <Navbar expand='md'>
+        <Navbar expand='md' sticky='top'>
             <Navbar.Brand as={Link} to='/'>
-                Winggo Tse
+                <b>Winggo Tse</b>
             </Navbar.Brand>
 
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse>
                 <Nav className='mr-auto'>
                     <Nav.Item>
-                        <Nav.Link as={Link} to='/projects'>
-                            Work + Projects
+                        <Nav.Link as={Link} to='/work'>
+                            <b>Work</b>
                         </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link as={Link} to='/about'>
-                            About Me
+                            <b>About</b>
                         </Nav.Link>
                     </Nav.Item>
-                {/* </Nav> */}
 
-                {/* <Nav className='justify-content-end'> */}
                     <Nav.Item>
                         <Nav.Link as={Link} to='/photography'>
-                            Photograhy
+                            <b>Photograhy</b>
                         </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link active={false} href={resume} target='_blank'>
-                            Resume
+                            <b>Résumé</b>
                         </Nav.Link>
                     </Nav.Item>
                 </Nav>

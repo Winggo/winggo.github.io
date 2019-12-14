@@ -9,7 +9,7 @@ import foodgo from '../../static/foodgo.png';
 import glorify from '../../static/glorify.png';
 import winggo_us from '../../static/portfolio.png';
 
-const ProjectsPage = () => {
+const WorkPage = () => {
     return (
         <div>
             <div className={styles.page}>
@@ -78,10 +78,10 @@ const ProjectsPage = () => {
             </div>
 
             <Footer
-                content='More to come.'
+                content='Always on the lookout for side-projects.'
             />
         </div>
     );
 }
 
-export default ProjectsPage;
+export default WorkPage;

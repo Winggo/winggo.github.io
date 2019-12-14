@@ -5,10 +5,10 @@ import { Container } from 'react-bootstrap';
 
 import Header from './components/Navbar';
 import LandingPage from './components/LandingPage';
-import ProjectsPage from './components/ProjectsPage';
+import WorkPage from './components/WorkPage';
 import AboutPage from './components/AboutPage';
 import PhotographyPage from './components/PhotographyPage';
-import PortfolioPage from './components/ProjectsPage/portfolio';
+import PortfolioPage from './components/WorkPage/portfolio';
 
 function App() {
 
@@ -22,12 +22,12 @@ function App() {
 						<LandingPage />
 					</Route>
 
-					<Route path='/projects/portfolio'>
+					<Route path='/work/portfolio'>
 						<PortfolioPage />
 					</Route>
 					
-					<Route path='/projects'>
-						<ProjectsPage />
+					<Route path='/work'>
+						<WorkPage />
 					</Route>
 
 					<Route path='/about'>
