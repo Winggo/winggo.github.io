@@ -12,3 +12,14 @@
 #main hr {
     width: 30vw;
 }
+
+@media (max-width: 1100px) {
+    #main {
+        color: whitesmoke;
+    }
+}
+@media (min-width: 1101px) {
+    #main {
+        color: black;
+    }
+}
