@@ -21,7 +21,7 @@
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build; if($?) {copy build/index.html build/404.html}; if($?) {echo 'winggo.us' > build/CNAME}",
+    "build": "$(react-scripts build | Out-Host;$?) -and $(copy build/index.html build/404.html | Out-Host;$?) -and $(echo 'winggo.us' > build/CNAME | Out-Host;$?)",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
