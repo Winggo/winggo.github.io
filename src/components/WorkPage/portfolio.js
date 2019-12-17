@@ -57,7 +57,7 @@ const PortfolioPage = () => {
                         <p>
                             Immediately the transitions between routes feels smoother and is at least 2x 
                             faster (>1s vs 2.2s load time) because instead of waiting for the server to 
-                            respond with a new html page, the browser simply needs to run JavaScript to 
+                            respond with a new HTML page, the browser simply needs to run JavaScript to 
                             manipulate the DOM. Server communication is unnecessary.
                         </p>
                         <p>
@@ -65,7 +65,7 @@ const PortfolioPage = () => {
                             very interested in to further optimize performance is using the React-Loadable 
                             library to lazy load JavaScript bundles. This works by loading the bare minimum 
                             JavaScript to make the webpage interactive, and downloading the rest of the JS 
-                            code that unnecessary at the moment while the browser is idle.
+                            code that's unnecessary at the moment while the browser is idle.
                         </p>
                     </div>
                 </Fade>

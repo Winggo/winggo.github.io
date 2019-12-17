@@ -25,6 +25,18 @@ const WorkPage = () => {
                         well as the frontend building interfaces with React and managing state with Redux.`}
                 />
 
+                <Project 
+                    projectLink={null}
+                    withinDomain={true}
+                    projectTitle='Winggo.us'
+                    pic={winggo_us}
+                    picAlt='Front page of the website.'
+                    descriptionHeader='Professional Portfolio'
+                    description={`
+                    My portfolio containing all my projects and other interests. Designed with Figma. 
+                    Built with HTML, CSS, JavaScript, JustifiedGallery.js, and Video.js.`}
+                />
+
                 <Project
                     projectLink='https://baythai2019-newsletter.herokuapp.com/'
                     projectTitle='Creative Newsletter'
@@ -61,18 +73,6 @@ const WorkPage = () => {
                     description={`
                         My personal Chrome extension built with React, responsive CSS, and Unsplash API. How 
                         shared with the world and available to install. Inspired by the Momentum Chrome extension.`}
-                />
-
-                <Project 
-                    projectLink={null}
-                    withinDomain={true}
-                    projectTitle='Winggo.us'
-                    pic={winggo_us}
-                    picAlt='Front page of the website.'
-                    descriptionHeader='Professional Portfolio'
-                    description={`
-                    My portfolio containing all my projects and other interests. Designed with Figma. 
-                    Built with HTML, CSS, JavaScript, JustifiedGallery.js, and Video.js.`}
                 />
 
             </div>
