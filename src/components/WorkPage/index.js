@@ -78,7 +78,7 @@ const WorkPage = () => {
             </div>
 
             <Footer
-                content='Always on the lookout for side-projects.'
+                content='Always working on some sort of side project.'
             />
         </div>
     );
