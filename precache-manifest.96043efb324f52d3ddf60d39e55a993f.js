@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a7d8238c41d1703c6b727545e4ac6a4e",
+    "revision": "343b21e15af4664b13b1844a928010e9",
     "url": "/index.html"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/6.ba332373.chunk.css"
   },
   {
-    "revision": "6f8bd5303937189dc2ab",
+    "revision": "4bc0e3d5614dace77934",
     "url": "/static/css/main.b07f5af7.chunk.css"
   },
   {
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/7.8cb77526.chunk.js"
   },
   {
-    "revision": "6f8bd5303937189dc2ab",
-    "url": "/static/js/main.b7c2cd79.chunk.js"
+    "revision": "4bc0e3d5614dace77934",
+    "url": "/static/js/main.b45de164.chunk.js"
   },
   {
     "revision": "83dadce4120af9679b92",
@@ -128,8 +128,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/PC050865.301c1422.jpg"
   },
   {
-    "revision": "5fe5f77ab8718c4d48259902ce37e838",
-    "url": "/static/media/WinggoTse_Resume.5fe5f77a.pdf"
+    "revision": "51b96bc05c1494e1274e087b20d78fee",
+    "url": "/static/media/WinggoTse_Resume.51b96bc0.pdf"
   },
   {
     "revision": "43944fdb3b13c92e20306dcffe2558c3",
