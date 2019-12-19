@@ -33,8 +33,8 @@ const WorkPage = () => {
                     picAlt='Front page of the website.'
                     descriptionHeader='Professional Portfolio'
                     description={`
-                    My portfolio containing all my projects and other interests. Designed with Figma. 
-                    Built with HTML, CSS, JavaScript, JustifiedGallery.js, and Video.js.`}
+                    My portfolio containing all my projects, blogs, photography, and other interests. Designed with Figma. 
+                    Built with React and CSS. Plugins include reactjs-videobg and react-photo-gallery.`}
                 />
 
                 <Project
@@ -77,9 +77,7 @@ const WorkPage = () => {
 
             </div>
 
-            <Footer
-                content='Always working on some sort of side project.'
-            />
+            <Footer content='Always working on some sort of side project.' />
         </div>
     );
 }

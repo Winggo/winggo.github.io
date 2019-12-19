@@ -4,9 +4,11 @@ import styles from './portfolio.module.css';
 import Fade from 'react-reveal/Fade';
 import Footer from '../Footer';
 import Figure from 'react-bootstrap/Figure';
+import ReactEmbedGist from 'react-embed-gist';
 
 import server_side from '../../static/serverSideRender.gif';
 import client_side from '../../static/clientSideRender.gif';
+import lazy_load from '../../static/lazyLoading.png';
 
 
 const PortfolioPage = () => {
@@ -61,11 +63,31 @@ const PortfolioPage = () => {
                             manipulate the DOM. Server communication is unnecessary.
                         </p>
                         <p>
-                            This is a work in development, and I'll leave it here for now. An approach I'm 
-                            very interested in to further optimize performance is using the React-Loadable 
-                            library to lazy load JavaScript bundles. This works by loading the bare minimum 
+                            Additionally, I've optimized performance on inital load speed by taking advantage of 
+                            lazy loading and code splitting introduced in React v16.6 used in conjunction 
+                            with Webpack v4. Code-splitting works by loading the bare minimum 
                             JavaScript to make the webpage interactive, and downloading the rest of the JS 
-                            code that's unnecessary at the moment while the browser is idle.
+                            code that's unnecessary at that moment while the browser is idle. 
+                            By splitting my code into various bundles which can then be 
+                            loaded on demand, the bundle the browser needs to download when hitting the landing 
+                            page is reduced by a sizable fraction in size and therefore user wait time 
+                            upon initalization is shrunk. Here is a glimpse of how it works in code.
+                        </p>
+                        <br></br>
+                        <ReactEmbedGist gist='Winggo/8d834d72337cb8eccdf1442983bf50d7' />
+                        <br></br>
+                        <p>
+                            The following graphic provides a visual of lazy loading in action, as represented by 
+                            individual chunks of JavaScript:
+                        </p>
+                        <div style={{textAlign: 'center'}}>
+                            <img src={lazy_load} style={{width: '85%', marginBottom: '25px'}} alt='Network tab on Chrome DevTools.' />
+                        </div>
+                        <p>
+                            I'll leave it here for now. There are some technologies I wish to look into, 
+                            as optimization is always a work in development. I'm keen into researching more about 
+                            the React-Loadable library to lazy load JavaScript bundles and compare it wth the method 
+                            maintained by React. 
                         </p>
                     </div>
                 </Fade>

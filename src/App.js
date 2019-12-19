@@ -10,6 +10,7 @@ const WorkPage = React.lazy(() => import('./components/WorkPage'));
 const AboutPage = React.lazy(() => import('./components/AboutPage'));
 const PhotographyPage = React.lazy(() => import('./components/PhotographyPage'));
 const PortfolioPage = React.lazy(() => import('./components/WorkPage/portfolio'));
+const BlogPage = React.lazy(() => import('./components/BlogPage'));
 
 function App() {
 	const Status = <Spinner className='spinner' animation='grow' variant='secondary' />;
@@ -49,6 +50,20 @@ function App() {
 						render={() => <Suspense fallback={Status}>
 							<PhotographyPage />
 							</Suspense>}
+					/>
+
+					<Route
+						path='/blog/rearchitecture'
+						render={() => <Suspense fallback={Status}>
+							<PortfolioPage />
+						</Suspense>}
+					/>
+
+					<Route
+						path='/blog'
+						render={() => <Suspense fallback={Status}>
+							<BlogPage />
+						</Suspense>}
 					/>
 
 				</Switch>
