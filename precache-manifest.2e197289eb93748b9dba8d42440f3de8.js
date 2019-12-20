@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "deb03177d62c78381b5f2ce5f4c740fe",
+    "revision": "40b6bb9e81f34ef1a1bb90fbca6adff8",
     "url": "/index.html"
   },
   {
@@ -20,12 +20,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/6.ba332373.chunk.css"
   },
   {
-    "revision": "97027d5227ef89eeafe4",
+    "revision": "fc4a8c02e22f0bb01bcf",
     "url": "/static/css/7.c7e45bcb.chunk.css"
   },
   {
-    "revision": "e9d179da229dd46c2fb3",
-    "url": "/static/css/main.b07f5af7.chunk.css"
+    "revision": "dbcc482c8ed0f4e010e6",
+    "url": "/static/css/main.fe3cb8bf.chunk.css"
   },
   {
     "revision": "9f471490382fcc75a203",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/6.291256f0.chunk.js"
   },
   {
-    "revision": "97027d5227ef89eeafe4",
-    "url": "/static/js/7.b46dadc6.chunk.js"
+    "revision": "fc4a8c02e22f0bb01bcf",
+    "url": "/static/js/7.0628b6d4.chunk.js"
   },
   {
     "revision": "880b9beeef297cf5b268",
@@ -68,12 +68,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/9.1c896a3e.chunk.js"
   },
   {
-    "revision": "e9d179da229dd46c2fb3",
-    "url": "/static/js/main.617718d7.chunk.js"
+    "revision": "dbcc482c8ed0f4e010e6",
+    "url": "/static/js/main.465871d1.chunk.js"
   },
   {
-    "revision": "944459f62dad439fb232",
-    "url": "/static/js/runtime-main.262acd65.js"
+    "revision": "623a15fa710e99abe9cb",
+    "url": "/static/js/runtime-main.fb05c977.js"
   },
   {
     "revision": "24b6c5c3725bed05dfc2216c49f9571e",
@@ -144,8 +144,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/PC050865.301c1422.jpg"
   },
   {
-    "revision": "51b96bc05c1494e1274e087b20d78fee",
-    "url": "/static/media/WinggoTse_Resume.51b96bc0.pdf"
+    "revision": "dae059142aa76d2dd5528be0533fd6ae",
+    "url": "/static/media/WinggoTse_Resume.dae05914.pdf"
   },
   {
     "revision": "43944fdb3b13c92e20306dcffe2558c3",

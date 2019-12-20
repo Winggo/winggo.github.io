@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.b07f5af7.chunk.css",
-    "main.js": "/static/js/main.617718d7.chunk.js",
-    "main.js.map": "/static/js/main.617718d7.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.262acd65.js",
-    "runtime-main.js.map": "/static/js/runtime-main.262acd65.js.map",
+    "main.css": "/static/css/main.fe3cb8bf.chunk.css",
+    "main.js": "/static/js/main.465871d1.chunk.js",
+    "main.js.map": "/static/js/main.465871d1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fb05c977.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fb05c977.js.map",
     "static/js/2.2b3752a7.chunk.js": "/static/js/2.2b3752a7.chunk.js",
     "static/js/2.2b3752a7.chunk.js.map": "/static/js/2.2b3752a7.chunk.js.map",
     "static/css/3.48270883.chunk.css": "/static/css/3.48270883.chunk.css",
@@ -20,21 +20,21 @@
     "static/js/6.291256f0.chunk.js": "/static/js/6.291256f0.chunk.js",
     "static/js/6.291256f0.chunk.js.map": "/static/js/6.291256f0.chunk.js.map",
     "static/css/7.c7e45bcb.chunk.css": "/static/css/7.c7e45bcb.chunk.css",
-    "static/js/7.b46dadc6.chunk.js": "/static/js/7.b46dadc6.chunk.js",
-    "static/js/7.b46dadc6.chunk.js.map": "/static/js/7.b46dadc6.chunk.js.map",
+    "static/js/7.0628b6d4.chunk.js": "/static/js/7.0628b6d4.chunk.js",
+    "static/js/7.0628b6d4.chunk.js.map": "/static/js/7.0628b6d4.chunk.js.map",
     "static/js/8.7b9c192a.chunk.js": "/static/js/8.7b9c192a.chunk.js",
     "static/js/8.7b9c192a.chunk.js.map": "/static/js/8.7b9c192a.chunk.js.map",
     "static/js/9.1c896a3e.chunk.js": "/static/js/9.1c896a3e.chunk.js",
     "static/js/9.1c896a3e.chunk.js.map": "/static/js/9.1c896a3e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6aeb7f27dc808e6ec7786d23ea28b328.js": "/precache-manifest.6aeb7f27dc808e6ec7786d23ea28b328.js",
+    "precache-manifest.2e197289eb93748b9dba8d42440f3de8.js": "/precache-manifest.2e197289eb93748b9dba8d42440f3de8.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.48270883.chunk.css.map": "/static/css/3.48270883.chunk.css.map",
     "static/css/4.fc1fe413.chunk.css.map": "/static/css/4.fc1fe413.chunk.css.map",
     "static/css/5.92d98364.chunk.css.map": "/static/css/5.92d98364.chunk.css.map",
     "static/css/6.ba332373.chunk.css.map": "/static/css/6.ba332373.chunk.css.map",
     "static/css/7.c7e45bcb.chunk.css.map": "/static/css/7.c7e45bcb.chunk.css.map",
-    "static/css/main.b07f5af7.chunk.css.map": "/static/css/main.b07f5af7.chunk.css.map",
+    "static/css/main.fe3cb8bf.chunk.css.map": "/static/css/main.fe3cb8bf.chunk.css.map",
     "static/js/2.2b3752a7.chunk.js.LICENSE": "/static/js/2.2b3752a7.chunk.js.LICENSE",
     "static/js/8.7b9c192a.chunk.js.LICENSE": "/static/js/8.7b9c192a.chunk.js.LICENSE",
     "static/media/AboveItAll.jpg": "/static/media/AboveItAll.24b6c5c3.jpg",
@@ -54,7 +54,7 @@
     "static/media/P7191303.jpg": "/static/media/P7191303.9b99759b.jpg",
     "static/media/PC033026.jpg": "/static/media/PC033026.26a17dd2.jpg",
     "static/media/PC050865.jpg": "/static/media/PC050865.301c1422.jpg",
-    "static/media/WinggoTse_Resume.pdf": "/static/media/WinggoTse_Resume.51b96bc0.pdf",
+    "static/media/WinggoTse_Resume.pdf": "/static/media/WinggoTse_Resume.dae05914.pdf",
     "static/media/Yosemite.mp4": "/static/media/Yosemite.43944fdb.mp4",
     "static/media/YosemiteFalls.jpg": "/static/media/YosemiteFalls.c4728906.jpg",
     "static/media/YosemitePoster.png": "/static/media/YosemitePoster.12c56509.png",
@@ -68,9 +68,9 @@
     "static/media/softprofiles.png": "/static/media/softprofiles.2dac5461.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.262acd65.js",
+    "static/js/runtime-main.fb05c977.js",
     "static/js/2.2b3752a7.chunk.js",
-    "static/css/main.b07f5af7.chunk.css",
-    "static/js/main.617718d7.chunk.js"
+    "static/css/main.fe3cb8bf.chunk.css",
+    "static/js/main.465871d1.chunk.js"
   ]
 }
