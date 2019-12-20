@@ -15,7 +15,7 @@ const BlogPage = () => {
                     picAlt='Landing page of my site.'
                 />
             </div>
-            <Footer content='A place for all my thoughts. More thoughts coming.' />
+            <Footer content='A place for all my thoughts. More to come.' />
         </div>
     );
 }
