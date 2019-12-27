@@ -1,3 +1,4 @@
-Rearchitecture of my portfolio.
-Moved away from server-side rendering into client-side with React.
-http://winggo.us
+# Rearchitecture of my portfolio.
+## https://Winggo.us
+
+Moved away from server-side into client-side rendering with React and TypeScript.

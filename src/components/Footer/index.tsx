@@ -7,7 +7,12 @@ import linkedin from '../../static/linkedIn.png';
 import insta from '../../static/instagram.png';
 import unsplash from '../../static/unsplash.png';
 
-const Footer = (props) => {
+
+interface props {
+    content?: string,
+}
+
+const Footer = (props: props) => {
     return (
         <Fade>
             <div>

@@ -9,8 +9,9 @@ import LandingPage from './components/LandingPage';
 const WorkPage = React.lazy(() => import('./components/WorkPage'));
 const AboutPage = React.lazy(() => import('./components/AboutPage'));
 const PhotographyPage = React.lazy(() => import('./components/PhotographyPage'));
-const PortfolioPage = React.lazy(() => import('./components/WorkPage/portfolio'));
+const PortfolioPage = React.lazy(() => import('./components/Blogs/portfolio'));
 const BlogPage = React.lazy(() => import('./components/BlogPage'));
+const MigrationPage = React.lazy(() => import('./components/Blogs/typescript'));
 
 function App() {
 	const Status = <Spinner className='spinner' animation='grow' variant='secondary' />;
@@ -23,13 +24,6 @@ function App() {
 					<Route exact path='/'>
 						<LandingPage />
 					</Route>
-
-					<Route 
-						path='/work/portfolio' 
-						render={() => <Suspense fallback={Status}>
-							<PortfolioPage />
-							</Suspense>}
-					/>
 					
 					<Route 
 						path='/work'
@@ -56,6 +50,13 @@ function App() {
 						path='/blog/rearchitecture'
 						render={() => <Suspense fallback={Status}>
 							<PortfolioPage />
+						</Suspense>}
+					/>
+
+					<Route
+						path='/blog/typescript'
+						render={() => <Suspense fallback={Status}>
+							<MigrationPage />
 						</Suspense>}
 					/>
 

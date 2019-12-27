@@ -3,17 +3,28 @@ import Fade from 'react-reveal/Fade';
 import styles from './index.module.css';
 import { Link } from 'react-router-dom';
 
-const Project = (props) => {
-    if(props.withinDomain) {
+
+interface props {
+    blogLink?: string,
+    projectTitle: string,
+    pic: string,
+    picAlt: string,
+    description: string | Array<any>,
+    descriptionHeader: string,
+    projectLink?: string,
+}
+
+const Project = (props: props) => {
+    if(props.blogLink) {
         return (
             <Fade>
                 <div className={styles.project}>
-                    <Link to='/work/portfolio' className={styles.link}>
+                    <Link to={props.blogLink} className={styles.link}>
                         <h3 className={styles.header}>
                             {props.projectTitle}
                         </h3>
                     </Link>
-                    <Link to='/work/portfolio' className={styles.link}>
+                    <Link to={props.blogLink} className={styles.link}>
                         <div className={styles.picContainer}>
                             <img className={styles.pic} src={props.pic} alt={props.picAlt} />
                         </div>

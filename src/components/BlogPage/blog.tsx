@@ -4,21 +4,30 @@ import styles from './index.module.css';
 import { Link } from 'react-router-dom';
 
 
-const Blog = (props) => {
+interface props {
+    link: string,
+    title: string,
+    desc: string,
+    time: string,
+    pic: string,
+    picAlt: string
+}
+
+const Blog = (props: props) => {
     return (
         <Fade>
             <div className={styles.blog}>
                 <div className={styles.blogText}>
                     <Link to={props.link} className={styles.link}>
                         <h2>
-                            <b>Rearchitecting the Frontend</b>
+                            <b>{props.title}</b>
                         </h2>
                         <h5>
-                            How I approached redesigning and optimizing my site.
+                            {props.desc}
                         </h5>
                     </Link>
                     <p>
-                        Dec 2019 - 8 min read
+                        {props.time}
                     </p>
                 </div>
                 <div className={styles.picContainer}>

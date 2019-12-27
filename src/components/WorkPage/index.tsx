@@ -26,8 +26,7 @@ const WorkPage = () => {
                 />
 
                 <Project 
-                    projectLink={null}
-                    withinDomain={true}
+                    blogLink='/blog/rearchitecture'
                     projectTitle='Winggo.us'
                     pic={winggo_us}
                     picAlt='Front page of the website.'

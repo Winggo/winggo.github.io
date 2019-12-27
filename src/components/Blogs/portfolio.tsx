@@ -1,6 +1,6 @@
 import React from 'react';
 import portfolio from '../../static/YosemitePoster.png';
-import styles from './portfolio.module.css';
+import styles from './blogs.module.css';
 import Fade from 'react-reveal/Fade';
 import Footer from '../Footer';
 import Figure from 'react-bootstrap/Figure';
@@ -19,9 +19,12 @@ const PortfolioPage = () => {
                     <div className={styles.picContainer}>
                         <img src={portfolio} className={styles.frontPic} alt="My website's front page." />
                     </div>
-                    
+                </Fade>
+                <Fade>
                     <div className={styles.content}>
-                        <h1 style={{textAlign: 'center'}}>Rearchitecting My Website's Frontend</h1>
+                        <h1 style={{textAlign: 'center'}}>
+                            Rearchitecting My Website's Frontend
+                        </h1>
                         <p>
                             In this post we'll take a look at the (1) why front-end apps are moving towards 
                             dynamic single page apps (PWA) and away from from what we've been doing so long using 
@@ -94,7 +97,7 @@ const PortfolioPage = () => {
             </div>
 
             <Fade>
-                <Footer content={null} />
+                <Footer content="There's always room for optimization."/>
             </Fade>
         </div>
     );

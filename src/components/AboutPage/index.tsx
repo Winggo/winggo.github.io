@@ -52,7 +52,7 @@ const AboutPage = () => {
                 </Fade>
             </div>
 
-            <Footer />
+            <Footer content='Happy to meet you.'/>
         </div>
     );
 }
