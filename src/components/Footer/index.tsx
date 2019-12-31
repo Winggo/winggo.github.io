@@ -1,6 +1,8 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import styles from './index.module.css';
+import { Link } from 'react-router-dom';
+import resume from '../../static/WinggoTse_Resume.pdf';
 
 import github from '../../static/github.png';
 import linkedin from '../../static/linkedIn.png';
@@ -20,6 +22,23 @@ const Footer = (props: props) => {
                 <h2 className={styles.content}>
                     {props.content}
                 </h2>
+                <div className={styles.links}>
+                    <Link to='/' className={styles.link}>
+                        Home
+                    </Link>
+                    <Link to='/work' className={styles.link}>
+                        Work
+                    </Link>
+                    <Link to='/blog' className={styles.link}>
+                        Blog
+                    </Link>
+                    <Link to='/photography' className={styles.link}>
+                        Photograhy
+                    </Link>
+                    <Link to={resume} target='_blank' className={styles.link}>
+                        Résumé
+                    </Link>
+                </div>
                 <div className={styles.logos}>
                     <a target='_blank' 
                         href='http://github.com/Winggo'

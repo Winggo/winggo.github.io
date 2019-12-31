@@ -20,6 +20,7 @@ import pic14 from '../../static/gallery/AboveItAll.jpg';
 import pic15 from '../../static/gallery/IMG_0383.jpg';
 import pic16 from '../../static/gallery/P7191303.jpg';
 import pic17 from '../../static/gallery/PC050865.jpg';
+import { Container } from 'react-bootstrap';
 
 
 
@@ -114,17 +115,19 @@ const PhotographyPage = () => {
     ];
 
     return (
-        <div>
-            <Fade>
-                <Gallery
-                    photos={photos}
-                    direction={'column'}
-                />
-            </Fade>
-            <Fade>
-                <Footer content='Imagery is powerful.' />
-            </Fade>
-        </div>
+		<Container>
+			<div>
+				<Fade>
+					<Gallery
+						photos={photos}
+						direction={'column'}
+					/>
+				</Fade>
+				<Fade>
+					<Footer content='Imagery is powerful.' />
+				</Fade>
+			</div>
+		</Container>
     );
 }
 
