@@ -11,6 +11,8 @@ import winggo_us from '../../static/portfolio.png';
 import { Container } from 'react-bootstrap';
 
 const WorkPage = () => {
+    document.title = 'Winggo Tse — Work';
+
     return (
         <Container>
             <div>

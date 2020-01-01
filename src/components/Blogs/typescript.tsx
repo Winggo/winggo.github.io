@@ -8,6 +8,8 @@ import { Container } from 'react-bootstrap';
 
 
 const MigrationBlog = () => {
+    document.title = 'Winggo Tse — TypeScript';
+
     return (
         <Container>
             <div className={styles.page}>

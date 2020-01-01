@@ -26,6 +26,8 @@ import { Container } from 'react-bootstrap';
 
 
 const PhotographyPage = () => {
+    document.title = 'Winggo Tse — Photography';
+
     const photos = [
         {
             src: pic1,

@@ -8,6 +8,8 @@ import tsxLogo from '../../static/tsx.png';
 import { Container } from 'react-bootstrap';
 
 const BlogPage = () => {
+    document.title = 'Winggo Tse — Blog';
+
     return (
         <Container>
             <div>

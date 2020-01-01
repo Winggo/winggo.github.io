@@ -6,6 +6,8 @@ import vid from '../../static/Yosemite.mp4';
 import poster from '../../static/YosemitePoster.png';
 
 const LandingPage = () => {
+    document.title = 'Winggo Tse — Portfolio';
+    
     return (
         <div id={styles.page}>
             <VideoBg poster={poster} videoClass={styles.video}>

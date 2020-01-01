@@ -15,6 +15,8 @@ import lazy_load from '../../static/lazyLoading.png';
 
 
 const PortfolioPage = () => {
+    document.title = 'Winggo Tse — Rearchitecture';
+
     return (
         <Container>
             <div>
