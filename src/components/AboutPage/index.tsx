@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import styles from './index.module.css';
 import Fade from 'react-reveal/Fade';
 import Footer from '../Footer';
@@ -6,9 +6,14 @@ import Footer from '../Footer';
 import profPic from '../../static/IMG_5621.jpg';
 import { Container } from 'react-bootstrap';
 
-const AboutPage = () => {
+
+interface props {
+    toAbout: React.RefObject<HTMLDivElement>
+}
+
+const AboutPage = (props: props) => {
     return (
-        <div id={styles.aboutBackground}>
+        <div id={styles.aboutBackground} ref={props.toAbout}>
             <Container>
                 <div className={styles.page}>
                     <Fade>
@@ -41,7 +46,7 @@ const AboutPage = () => {
                             </p>
                             <p>
                                 Currently seeking full-time software engineering roles. Primarily experienced in front-end development. 
-                                My favorite tools for the job include React.js, Next.js, Express.js, Html/Css, Node.js, and TypeScript.
+                                My favorite tools for the job include React.js, Next.js, Html/Css, Node.js, Express.js, and TypeScript.
                             </p>
                             <p>    
                                 Feel free to drop a{' '}

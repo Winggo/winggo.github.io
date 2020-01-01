@@ -7,6 +7,7 @@ import scrollDown from './static/scrollDown.png';
 import Header from './components/Navbar';
 import LandingPage from './components/LandingPage';
 import AboutPage from './components/AboutPage';
+import ScrollTo from './components/scrollTo';
 
 const WorkPage = React.lazy(() => import('./components/WorkPage'));
 const PhotographyPage = React.lazy(() => import('./components/PhotographyPage'));
@@ -27,26 +28,8 @@ function App() {
 			<Switch>
 				<Route exact path='/'>
 					<LandingPage />
-
-					<div style={{textAlign: 'center', marginTop: '35vh'}}>
-						<img 
-							src={scrollDown} 
-							onClick={() => toAbout.current?.scrollIntoView({behavior: 'smooth'})}
-							style={{
-								textAlign: 'center', 
-								width: '50px', 
-								height: '50px', 
-								pointerEvents: 'all', 
-								opacity: 0.7,
-								animation: 'bounce 2s infinite',
-								cursor: 'pointer',
-							}} 
-							alt='Scroll down' />
-					</div>
-
-					<div ref={toAbout}>
-						<AboutPage />
-					</div>
+					<ScrollTo logo={scrollDown} toAbout={toAbout} alt='Scroll to about section' />
+					<AboutPage toAbout={toAbout} />
 				</Route>
 				
 				<Route 
@@ -55,13 +38,6 @@ function App() {
 						<WorkPage />
 						</Suspense>}
 				/>
-
-				{/* <Route 
-					path='/about'
-					render={() => <Suspense fallback={Status}>
-						<AboutPage />
-						</Suspense>}
-				/> */}
 
 				<Route 
 					path='/photography'

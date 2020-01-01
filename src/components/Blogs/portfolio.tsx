@@ -6,6 +6,8 @@ import Footer from '../Footer';
 import Figure from 'react-bootstrap/Figure';
 import ReactEmbedGist from 'react-embed-gist';
 import { Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+
 
 import server_side from '../../static/serverSideRender.gif';
 import client_side from '../../static/clientSideRender.gif';
@@ -94,6 +96,11 @@ const PortfolioPage = () => {
                                 the React-Loadable library to lazy load JavaScript bundles and compare it wth the method 
                                 maintained by React. 
                             </p>
+                            <div style={{textAlign: 'right'}}>
+                                <Link to='/blog/typescript' style={{textDecorationColor: 'grey'}}>
+                                    <h2 className={styles.next}>Next →</h2>
+                                </Link>
+                            </div>
                         </div>
                     </Fade>
                 </div>
