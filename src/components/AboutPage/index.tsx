@@ -47,7 +47,7 @@ const AboutPage = () => {
                                 Feel free to drop a{' '}
                                 <a target='_blank' className={styles.link} 
                                 href='https://www.messenger.com/t/winggo.tse'
-                                rel='noopener noreferrer'>messenge</a> 
+                                rel='noopener noreferrer'>message</a> 
                                 {' '}or send me an{' '} 
                                 <a className={styles.link}
                                 href='mailto: winggo.tse@gmail.com'
