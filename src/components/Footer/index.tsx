@@ -11,13 +11,13 @@ import unsplash from '../../static/unsplash.png';
 
 
 interface props {
-    content?: string,
+    content?: string | Array<any>,
 }
 
 const Footer = (props: props) => {
     return (
         <Fade>
-            <div>
+            <div className={styles.footer}>
                 <hr></hr>
                 <h2 className={styles.content}>
                     {props.content}
@@ -39,7 +39,7 @@ const Footer = (props: props) => {
                         Résumé
                     </Link>
                 </div>
-                <div className={styles.logos}>
+                <div>
                     <a target='_blank' 
                         href='http://github.com/Winggo'
                         rel='noopener noreferrer'>
@@ -64,6 +64,9 @@ const Footer = (props: props) => {
                         <img src={unsplash} className={styles.logo} alt='My Unsplash profile' />
                     </a>
                 </div>
+                <p className={styles.copyright}>
+                    © 2019 All Rights Reserved - Designed & Coded by Winggo Tse 
+                </p>
             </div>
         </Fade>
     );

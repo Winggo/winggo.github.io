@@ -1,13 +1,13 @@
-.content {
+.footer {
     text-align: center;
+}
+
+.content {
     margin-top: 30px;
     margin-bottom: 20px;
 }
 
 
-.links {
-    text-align: center;
-}
 .link {
     color: rgb(33,37,41);
     margin: 15px;
@@ -16,19 +16,12 @@
 .link:hover {
     color: rgb(33,37,41);
     opacity: 1.0;
-    text-decoration: bold;
 }
-@media (max-width: 410px) {
+@media (max-width: 425px) {
     .links {
         display: grid;
         grid-template-columns: 50% 50%;
     }
-}
-
-
-.logos {
-    text-align: center;
-    padding-bottom: 50px;
 }
 
 .logo {
@@ -39,4 +32,10 @@
 }
 .logo:hover {
     opacity: 1.0;
+}
+
+.copyright {
+    font-size: 0.7em;
+    opacity: 0.8;
+    padding-bottom: 25px;
 }

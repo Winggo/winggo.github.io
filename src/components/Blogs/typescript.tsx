@@ -89,9 +89,9 @@ const MigrationBlog = () => {
                         </p>
                         <p>
                             Your file(s) sould look like this:
-                            <ReactEmbedGist gist='Winggo/0e2ce1b9d9749b2a319620a5d860ba7a' />
-                            <ReactEmbedGist gist='Winggo/6bc59c9eb1b03876522ca5ff3659032d' />
                         </p>
+                        <ReactEmbedGist gist='Winggo/0e2ce1b9d9749b2a319620a5d860ba7a' />
+                        <ReactEmbedGist gist='Winggo/6bc59c9eb1b03876522ca5ff3659032d' />
                         <p>
                             This ensures the TypeScript compiler access to the @types definitions. And lastly, 
                             an error that kept happening to me when I change file extensions to <code>.tsx</code> is 

@@ -7,7 +7,7 @@ import poster from '../../static/YosemitePoster.png';
 
 const LandingPage = () => {
     return (
-        <div className={styles.page}>
+        <div id={styles.page}>
             <VideoBg poster={poster} videoClass={styles.video}>
                 <VideoBg.Source src={vid} type='video/mp4' />
             </VideoBg>

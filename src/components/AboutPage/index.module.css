@@ -2,8 +2,15 @@
     display: flex;
 }
 
+#aboutBackground {
+    margin-top: 10vh;
+    background: white;
+    padding: 40px;
+}
+
 .flexItem {
-    margin: 30px;
+    margin: 15px;
+    margin-top: 25px;
 }
 
 .link {
@@ -12,7 +19,13 @@
 }
 .link:hover {
     opacity: 1.0;
-    text-decoration: none;
+}
+
+.footerLink {
+    color: black;
+}
+.footerLink:hover {
+    color: black;
 }
 
 @media only screen and (max-width: 767px) {

@@ -116,17 +116,15 @@ const PhotographyPage = () => {
 
     return (
 		<Container>
-			<div>
-				<Fade>
-					<Gallery
-						photos={photos}
-						direction={'column'}
-					/>
-				</Fade>
-				<Fade>
-					<Footer content='Imagery is powerful.' />
-				</Fade>
-			</div>
+      <Fade>
+        <Gallery
+          photos={photos}
+          direction={'column'}
+        />
+      </Fade>
+      <Fade>
+        <Footer content='Imagery is powerful.' />
+      </Fade>
 		</Container>
     );
 }
