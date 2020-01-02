@@ -18,7 +18,7 @@ const WorkPage = () => {
             <div>
                 <div className={styles.page}>
                     <Project
-                        projectLink='http://successhub.co/'
+                        blogLink='/work/softprofiles'
                         projectTitle='Softprofiles'
                         pic={softprofiles}
                         picAlt='Softprofiles login page.'

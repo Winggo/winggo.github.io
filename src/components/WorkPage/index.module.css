@@ -1,6 +1,6 @@
 .page {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 50% 50%;
 }
 
 @media only screen and (max-width: 1024px) {

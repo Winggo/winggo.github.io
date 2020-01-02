@@ -14,6 +14,9 @@ const MigrationBlog = () => {
         <Container>
             <div className={styles.page}>
                 <Fade>
+                    <h1 style={{textAlign: 'center', marginTop: '20px'}}>
+                        Migrating to TypeScript
+                    </h1>
                     <div className={styles.picContainer}>
                         <img src={tsx} className={styles.frontPic} alt='Migration from JS to TS.' />
                     </div>
@@ -21,9 +24,6 @@ const MigrationBlog = () => {
 
                 <Fade>
                     <div className={styles.content}>
-                        <h1 style={{textAlign: 'center'}}>
-                            Migrating to TypeScript
-                        </h1>
                         <p>
                             TypeScript has always been a language I long to adopt after learning just  
                             how much time it has saved for frontend teams from a variety of companies. 

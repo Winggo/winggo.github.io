@@ -22,15 +22,15 @@ const PortfolioPage = () => {
             <div>
                 <div className={styles.page}>
                     <Fade>
+                        <h1 style={{textAlign: 'center', marginTop: '20px'}}>
+                            Rearchitecting My Website's Frontend
+                        </h1>
                         <div className={styles.picContainer}>
                             <img src={portfolio} className={styles.frontPic} alt="My website's front page." />
                         </div>
                     </Fade>
                     <Fade>
                         <div className={styles.content}>
-                            <h1 style={{textAlign: 'center'}}>
-                                Rearchitecting My Website's Frontend
-                            </h1>
                             <p>
                                 In this post we'll take a look at the (1) why front-end apps are moving towards 
                                 dynamic single page apps (PWA) and away from from what we've been doing so long using 
