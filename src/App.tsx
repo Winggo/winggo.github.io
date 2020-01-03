@@ -2,7 +2,7 @@ import React, { Suspense } from 'react';
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
 import { Spinner } from 'react-bootstrap';
-import scrollDown from './static/scrollDown.png';
+import scrollDown from './static/icons/scrollDown.png';
 
 import Header from './components/Navbar';
 import LandingPage from './components/LandingPage';
@@ -14,7 +14,12 @@ const PhotographyPage = React.lazy(() => import('./components/PhotographyPage'))
 const PortfolioPage = React.lazy(() => import('./components/Blogs/portfolio'));
 const BlogPage = React.lazy(() => import('./components/BlogPage'));
 const MigrationPage = React.lazy(() => import('./components/Blogs/typescript'));
-const InternBlurb = React.lazy(() => import('./components/WorkPage/internBlurb'));
+const InternBlurb = React.lazy(() => import('./components/WorkPage/Blurbs/internBlurb'));
+const PortfolioBlurb = React.lazy(() => import('./components/WorkPage/Blurbs/portfolioBlurb'));
+const NewsletterBlurb = React.lazy(() => import('./components/WorkPage/Blurbs/newsletterBlurb'));
+const FoodgoBlurb = React.lazy(() => import('./components/WorkPage/Blurbs/foodgoBlurb'));
+const GlorifyBlurb = React.lazy(() => import('./components/WorkPage/Blurbs/glorifyBlurb'));
+
 
 function App() {
 	const Status = 
@@ -37,6 +42,34 @@ function App() {
 					path='/work/softprofiles'
 					render={() => <Suspense fallback={Status}>
 						<InternBlurb />
+						</Suspense>}
+				/>
+
+				<Route
+					path='/work/portfolio'
+					render={() => <Suspense fallback={Status}>
+						<PortfolioBlurb />
+						</Suspense>}
+				/>
+
+				<Route
+					path='/work/newsletter'
+					render={() => <Suspense fallback={Status}>
+						<NewsletterBlurb />
+						</Suspense>}
+				/>
+
+				<Route
+					path='/work/foodgo'
+					render={() => <Suspense fallback={Status}>
+						<FoodgoBlurb />
+						</Suspense>}
+				/>
+
+				<Route
+					path='/work/glorify'
+					render={() => <Suspense fallback={Status}>
+						<GlorifyBlurb />
 						</Suspense>}
 				/>
 				

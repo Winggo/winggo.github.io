@@ -4,10 +4,10 @@ import styles from './index.module.css';
 import { Link } from 'react-router-dom';
 import resume from '../../static/WinggoTse_Resume.pdf';
 
-import github from '../../static/github.png';
-import linkedin from '../../static/linkedIn.png';
-import insta from '../../static/instagram.png';
-import unsplash from '../../static/unsplash.png';
+import github from '../../static/icons/github.png';
+import linkedin from '../../static/icons/linkedIn.png';
+import insta from '../../static/icons/instagram.png';
+import unsplash from '../../static/icons/unsplash.png';
 
 
 interface props {

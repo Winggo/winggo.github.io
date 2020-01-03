@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import styles from './blurb.module.css';
 import Footer from '../Footer';
+import { Link } from 'react-router-dom';
 
 
 interface props {
@@ -21,18 +22,54 @@ interface props {
     pic1: string,
     pic1Alt: string,
     pic1Caption: string,
-    pic2: string,
-    pic2Alt: string,
-    pic2Caption: string,
-    pic3: string,
-    pic3Alt: string,
-    pic3Caption: string,
+    pic2?: string,
+    pic2Alt?: string,
+    pic2Caption?: string,
+    pic3?: string,
+    pic3Alt?: string,
+    pic3Caption?: string,
     footer?: string,
+    nextBlurbLink?: string,
 }
 
 
 const Blurb = (props: props) => {
     document.title = `Winggo Tse — ${props.title}`
+
+    let nextLink = <div></div>;
+    if(props.nextBlurbLink) {
+        nextLink = <Fade>
+                        <div style={{textAlign: 'right'}}>
+                            <Link to={props.nextBlurbLink} style={{textDecorationColor: 'grey'}}>
+                                <h2 className={styles.next}>Next →</h2>
+                            </Link>
+                        </div>
+                    </Fade>;
+    }
+
+    let pic2 = <div></div>;
+    if(props.pic2 && props.pic2Alt && props.pic2Caption) {
+        pic2 = <Fade>
+                    <div className={styles.picContainer}>
+                        <img src={props.pic2} className={styles.frontPic} alt={props.pic2Alt} />
+                        <h5 style={{padding: '10px'}}>
+                            {props.pic2Caption}
+                        </h5>
+                    </div>
+                </Fade>;
+    }
+
+    let pic3 = <div></div>;
+    if(props.pic3 && props.pic3Alt && props.pic3Caption) {
+        pic3 = <Fade>
+                    <div className={styles.picContainer}>
+                        <img src={props.pic3} className={styles.frontPic} alt={props.pic3Alt} />
+                        <h5 style={{padding: '10px'}}>
+                            {props.pic3Caption}
+                        </h5>
+                    </div>
+                </Fade>;
+    }
 
     return (
         <Container>
@@ -101,29 +138,16 @@ const Blurb = (props: props) => {
             <Fade>
                 <div className={styles.picContainer}>
                     <img src={props.pic1} className={styles.frontPic} alt={props.pic1Alt} />
-                    <p style={{margin: '10px'}}>
+                    <h5 style={{padding: '10px'}}>
                         {props.pic1Caption}
-                    </p>
+                    </h5>
                 </div>
             </Fade>
 
-            <Fade>
-                <div className={styles.picContainer}>
-                    <img src={props.pic2} className={styles.frontPic} alt={props.pic2Alt} />
-                    <p style={{margin: '10px'}}>
-                        {props.pic2Caption}
-                    </p>
-                </div>
-            </Fade>
+            {pic2}
+            {pic3}
 
-            <Fade>
-                <div className={styles.picContainer}>
-                    <img src={props.pic3} className={styles.frontPic} alt={props.pic3Alt} />
-                    <p style={{margin: '10px'}}>
-                        {props.pic3Caption}
-                    </p>
-                </div>
-            </Fade>
+            {nextLink}
 
             <Fade>
                 <Footer content={props.footer} />

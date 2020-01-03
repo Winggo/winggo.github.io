@@ -23,6 +23,13 @@
     width: 85%;    
 }
 
+.next {
+    color: black;
+}
+.next:hover {
+    opacity: 0.7;
+}
+
 @media (max-width: 1000px) {
     .sidebar {
         display: grid;

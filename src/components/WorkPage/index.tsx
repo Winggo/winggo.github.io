@@ -5,8 +5,8 @@ import Footer from '../Footer';
 
 import softprofiles from '../../static/softprofiles.png';
 import newsletter from '../../static/newsletter.png';
-import foodgo from '../../static/foodgo.png';
-import glorify from '../../static/glorify.png';
+import foodgo from '../../static/foodgo_600.png';
+import glorify from '../../static/glorifyScreen_1200.png';
 import winggo_us from '../../static/portfolio.png';
 import { Container } from 'react-bootstrap';
 
@@ -19,7 +19,7 @@ const WorkPage = () => {
                 <div className={styles.page}>
                     <Project
                         blogLink='/work/softprofiles'
-                        projectTitle='Softprofiles'
+                        projectTitle='Softprofiles - 01'
                         pic={softprofiles}
                         picAlt='Softprofiles login page.'
                         descriptionHeader='Software Engineer Intern'
@@ -30,8 +30,8 @@ const WorkPage = () => {
                     />
 
                     <Project 
-                        blogLink='/blog/rearchitecture'
-                        projectTitle='Winggo.us'
+                        blogLink='/work/portfolio'
+                        projectTitle='Winggo.us - 02'
                         pic={winggo_us}
                         picAlt='Front page of the website.'
                         descriptionHeader='Professional Portfolio'
@@ -41,8 +41,8 @@ const WorkPage = () => {
                     />
 
                     <Project
-                        projectLink='https://baythai2019-newsletter.herokuapp.com/'
-                        projectTitle='Creative Newsletter'
+                        blogLink='/work/newsletter'
+                        projectTitle='Creative Newsletter - 03'
                         pic={newsletter}
                         picAlt='My summer mission experience newsletter first page.'
                         descriptionHeader='Parallax single page application'
@@ -52,8 +52,8 @@ const WorkPage = () => {
                     />
 
                     <Project
-                        projectLink='https://foodgo183.herokuapp.com/'
-                        projectTitle='Foodgo'
+                        blogLink='/work/foodgo'
+                        projectTitle='Foodgo - 04'
                         pic={foodgo}
                         picAlt='Foodgo landing page.'
                         descriptionHeader='Group Restaurant Voting Application'
@@ -68,8 +68,8 @@ const WorkPage = () => {
                     />
 
                     <Project 
-                        projectLink='https://chrome.google.com/webstore/detail/glorify/cgfkjilppdjifdiabiogenbncidmpkkd'
-                        projectTitle='Glorify'
+                        blogLink='/work/glorify'
+                        projectTitle='Glorify - 05'
                         pic={glorify}
                         picAlt='Extension page in the Google Chrome store.'
                         descriptionHeader='Google Chrome Extension'
