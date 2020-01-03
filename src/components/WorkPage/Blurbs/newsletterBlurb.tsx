@@ -9,7 +9,7 @@ const newsletterBlurb = () => {
     return (
         <Blurb 
         title='Missions Newsletter'
-        desc='About everything me and my missions team did in Thailand 2019 in the form of a parallax website #BayThai'
+        desc='About everything my missions team and I did in Thailand 2019 in the form of a parallax website #BayThai'
         num='03'
         frontPic={frontPic}
         frontPicAlt='Newsletter landing page'
