@@ -19,6 +19,7 @@ const WorkPage = () => {
                 <div className={styles.page}>
                     <Project
                         blogLink='/work/softprofiles'
+                        externalLink='successhub.co'
                         projectTitle='Softprofiles - 01'
                         pic={softprofiles}
                         picAlt='Softprofiles login page.'
@@ -42,10 +43,11 @@ const WorkPage = () => {
 
                     <Project
                         blogLink='/work/newsletter'
+                        externalLink='baythai2019-newsletter.herokuapp.com'
                         projectTitle='Creative Newsletter - 03'
                         pic={newsletter}
                         picAlt='My summer mission experience newsletter first page.'
-                        descriptionHeader='Parallax single page application'
+                        descriptionHeader='Parallax Single Page App'
                         description={`
                             Built and designed a website for a newsletter featuring my experience in Thailand this past summer. 
                             Developed with React, React-spring, React-reveal, CSS.`}
@@ -53,6 +55,7 @@ const WorkPage = () => {
 
                     <Project
                         blogLink='/work/foodgo'
+                        externalLink='foodgo183.herokuapp.com'
                         projectTitle='Foodgo - 04'
                         pic={foodgo}
                         picAlt='Foodgo landing page.'
@@ -69,6 +72,7 @@ const WorkPage = () => {
 
                     <Project 
                         blogLink='/work/glorify'
+                        externalLink='chrome.google.com/webstore/detail/glorify/cgfkjilppdjifdiabiogenbncidmpkkd'
                         projectTitle='Glorify - 05'
                         pic={glorify}
                         picAlt='Extension page in the Google Chrome store.'

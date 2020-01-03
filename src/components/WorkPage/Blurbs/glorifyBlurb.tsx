@@ -8,8 +8,7 @@ const GlorifyBlurb = () => {
     return (
         <Blurb
         title='Glorify'
-        desc="A lightweight Google Chrome extension built to remind you 
-            of God's presence and boost creativity"
+        desc="A lightweight Google Chrome extension built to boost creativity and mindfulness"
         num='05'
         frontPic={screen}
         frontPicAlt='New tab screen with Glorify'

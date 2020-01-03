@@ -29,15 +29,25 @@
 }
 .link {
     color: rgb(33,37,41);
+    opacity: 0.7;
 }
 .link:hover {
-    text-decoration: none;
+    color: rgb(33,37,41);
+    opacity: 1;
 }
 
 .picContainer {
     overflow: hidden;
     margin: 20px;
     border: solid rgba(0, 0, 0, .05);
+}
+
+.projectTitle {
+    color: black;
+}
+.projectTitle:hover {
+    color: black;
+    opacity: 0.7;
 }
 
 .picContainer .pic {

@@ -11,11 +11,22 @@ interface props {
     picAlt: string,
     description: string | Array<any>,
     descriptionHeader: string,
-    projectLink?: string,
+    externalLink?: string,
 }
 
 const Project = (props: props) => {
     if(props.blogLink) {
+        let externalLink = <div></div>;
+        if(props.externalLink) {
+            externalLink = <p style={{fontSize: '1.0em', marginBottom: '8px'}}>
+                                <a target='_blank' className={styles.link}
+                                href={'http://'+props.externalLink}
+                                rel='noopener noreferrer'>
+                                    {props.externalLink}
+                                </a>
+                            </p>;
+        }
+
         return (
             <Fade>
                 <div className={styles.project}>
@@ -31,9 +42,14 @@ const Project = (props: props) => {
                     </Link>
 
                     <div>
-                        <h4>
-                            {props.descriptionHeader}
+                        <h4 style={{gridColumn: '1', marginBottom: '3px'}}>
+                            <Link to={props.blogLink} className={styles.projectTitle}>
+                                {props.descriptionHeader}
+                            </Link>
                         </h4>
+
+                        {externalLink}
+
                         <p>
                             {props.description}
                         </p>
@@ -47,13 +63,13 @@ const Project = (props: props) => {
         <Fade>
             <div className={styles.project}>
                 <a target='_blank' className={styles.link} 
-                href={props.projectLink} 
+                href={props.externalLink} 
                 rel='noopener noreferrer'>
                     <h3 className={styles.header}>
                         {props.projectTitle}
                     </h3>
                 </a>
-                <a target='_blank' href={props.projectLink} rel='noopener noreferrer'>
+                <a target='_blank' href={props.externalLink} rel='noopener noreferrer'>
                     <div className={styles.picContainer}>
                         <img className={styles.pic} src={props.pic} alt={props.picAlt} />
                     </div>
