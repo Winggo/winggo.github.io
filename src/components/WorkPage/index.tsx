@@ -64,7 +64,10 @@ const WorkPage = () => {
                             `Takes input from multiple users, finds the nearest restaurants determined 
                             by your group's preferences, displays the Yelp reviews, and generates a restaurant 
                             everyone can agree with. Built with React, CSS, Firebase, and `,
-                            <a key='unique' target="_blank" className={styles.link} href="https://www.yelp.com/fusion" rel='noopener noreferrer'>
+                            <a 
+                            key='unique' target="_blank" className={styles.link} 
+                            href="https://www.yelp.com/fusion" rel='noopener noreferrer'
+                            style={{opacity: '1'}}>
                                 Yelp Fusion API
                             </a>,
                             `. Design inspired by Tinder.`]}
@@ -77,9 +80,16 @@ const WorkPage = () => {
                         pic={glorify}
                         picAlt='Extension page in the Google Chrome store.'
                         descriptionHeader='Google Chrome Extension'
-                        description={`
-                            My personal Chrome extension built with React, responsive CSS, and Unsplash API. How 
-                            shared with the world and available to install. Inspired by the Momentum Chrome extension.`}
+                        description={[
+                            `My personal Chrome extension built with React, responsive CSS, and Unsplash API. How 
+                            shared with the world and available to install. Inspired by the `,
+                            <a
+                            key = 'unique' target="_blank" className={styles.link}
+                            href="https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en"
+                            rel='noopener noreferrer' style={{opacity: '1'}}>
+                                Momentum
+                            </a>,
+                            ` Chrome extension.`]}
                     />
 
                 </div>

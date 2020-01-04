@@ -46,7 +46,7 @@ const AboutPage = (props: props) => {
                             </p>
                             <p>
                                 Currently seeking full-time software engineering roles. Primarily experienced in front-end development. 
-                                My favorite tools for the job include React.js, Next.js, Html/Css, Node.js, Express.js, and TypeScript.
+                                My favorite tools for the job include React.js, Next.js, Html/Css, Node.js, Express.js, Java, and TypeScript.
                             </p>
                             <p>    
                                 Feel free to drop a{' '}
@@ -66,9 +66,13 @@ const AboutPage = (props: props) => {
 
                 <Footer content={[
                     "Happy to meet you. Let's ", 
-                    <a className={styles.footerLink}
-                        href='mailto: winggo.tse@gmail.com'
-                        rel='noopener noreferrer'>connect</a>,
+                    <a 
+                    key='unique'
+                    className={styles.footerLink}
+                    href='mailto: winggo.tse@gmail.com'
+                    rel='noopener noreferrer'>
+                        connect
+                    </a>,
                     "!"
                 ]}/>
             </Container>

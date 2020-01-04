@@ -18,7 +18,7 @@ const Project = (props: props) => {
     if(props.blogLink) {
         let externalLink = <div></div>;
         if(props.externalLink) {
-            externalLink = <p style={{fontSize: '1.0em', marginBottom: '8px'}}>
+            externalLink = <p style={{fontSize: '1.0em', marginBottom: '8px', overflow: 'hidden'}}>
                                 <a target='_blank' className={styles.link}
                                 href={'http://'+props.externalLink}
                                 rel='noopener noreferrer'>
