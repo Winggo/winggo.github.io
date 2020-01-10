@@ -65,7 +65,7 @@ const Footer = (props: props) => {
                     </a>
                 </div>
                 <p className={styles.copyright}>
-                    © 2019 All Rights Reserved - Designed & Coded by Winggo Tse 
+                    © 2020 All Rights Reserved - Designed & Coded by Winggo Tse 
                 </p>
             </div>
         </Fade>

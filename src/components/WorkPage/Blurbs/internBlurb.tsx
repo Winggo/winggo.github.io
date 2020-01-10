@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Softprofiles from '../../../static/softprofiles_1200.png';
+import Successhub from '../../../static/softprofiles_1200.png';
 import StudentProfile from '../../../static/studentProfiles_1200.png';
 import StudentCourses from '../../../static/studentCourses_1200.png';
 import ModalPic from '../../../static/studentModal_1200.png';
@@ -8,18 +8,18 @@ import Blurb from '../blurb';
 const InternBlurb = () => {
     return (
         <Blurb
-        title='Softprofiles'
+        title='Successhub'
         desc='A transformative student success platform'
         num='01'
-        frontPic={Softprofiles}
-        frontPicAlt='Softprofiles'
+        frontPic={Successhub}
+        frontPicAlt='Successhub'
         prompt1='Role'
         prompt1Response='Software Engineer Intern'
         prompt2='Company'
-        prompt2Response='Softprofiles'
+        prompt2Response='Successhub'
         link='http://successhub.co/'
         text={`
-            Softprofiles is an ed-tech software startup based in San Jose, California. 
+            Successhub is an ed-tech software startup based in Santa Clara, California. 
             I contributed to building the success manager platform as a software 
             engineer intern in the backend development team. School staff are able to 
             customize their profiles, message students and professors, 

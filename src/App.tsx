@@ -39,7 +39,7 @@ function App() {
 				</Route>
 
 				<Route
-					path='/work/softprofiles'
+					path='/work/successhub'
 					render={() => <Suspense fallback={Status}>
 						<InternBlurb />
 						</Suspense>}

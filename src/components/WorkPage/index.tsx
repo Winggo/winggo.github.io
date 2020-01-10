@@ -3,7 +3,7 @@ import styles from './index.module.css';
 import Project from './project';
 import Footer from '../Footer';
 
-import softprofiles from '../../static/softprofiles.png';
+import successhub from '../../static/softprofiles.png';
 import newsletter from '../../static/newsletter.png';
 import foodgo from '../../static/foodgo_600.png';
 import glorify from '../../static/glorifyScreen_1200.png';
@@ -18,14 +18,14 @@ const WorkPage = () => {
             <div>
                 <div className={styles.page}>
                     <Project
-                        blogLink='/work/softprofiles'
+                        blogLink='/work/successhub'
                         externalLink='successhub.co'
-                        projectTitle='Softprofiles - 01'
-                        pic={softprofiles}
-                        picAlt='Softprofiles login page.'
+                        projectTitle='Successhub - 01'
+                        pic={successhub}
+                        picAlt='Successhub login page.'
                         descriptionHeader='Software Engineer Intern'
                         description={`
-                            Worked at Softprofiles, an edu-tech startup, in the backend team. 
+                            Worked at Successhub, an edu-tech startup, in the backend team. 
                             Developed the Node.js server backend building RESTful API endpoints using Sequelize.js as  
                             well as the frontend building interfaces with React and managing state with Redux.`}
                     />
