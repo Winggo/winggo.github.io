@@ -32,7 +32,7 @@ const AboutPage = (props: props) => {
                                 <i>
                                     <a target='_blank' className={styles.link} 
                                         href='http://successhub.co/'
-                                        rel='noopener noreferrer'>Softprofiles</a>
+                                        rel='noopener noreferrer'>Successhub</a>
                                 </i>.
                             </p>
                             {/* Having recently graduated from University of California, Santa Cruz with a bachelor's 
