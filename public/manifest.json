@@ -1,6 +1,6 @@
 {
-  "short_name": "Winggo Tse's Portfolio",
-  "name": "Professional Portolio by Winggo Tse",
+  "short_name": "Winggo Tse — Portfolio",
+  "name": "Winggo Tse — Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,7 +18,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://winggo.us",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
