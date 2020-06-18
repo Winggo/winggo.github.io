@@ -67,7 +67,7 @@ const PortfolioPage = () => {
                             </div>
                             <p>
                                 Immediately the transitions between routes feels smoother and is at least 2x 
-                                faster (>1s vs 2.2s load time) because instead of waiting for the server to 
+                                faster (&gt;1s vs 2.2s load time) because instead of waiting for the server to 
                                 respond with a new HTML page, the browser simply needs to run JavaScript to 
                                 manipulate the DOM. Server communication is unnecessary.
                             </p>
