@@ -3,7 +3,7 @@ import styles from './index.module.css';
 import Fade from 'react-reveal/Fade';
 import Footer from '../Footer';
 
-import profPic from '../../static/IMG_5621.jpg';
+import profPic from '../../static/me.jpg';
 import { Container } from 'react-bootstrap';
 
 
@@ -18,7 +18,7 @@ const AboutPage = (props: props) => {
                 <div className={styles.page}>
                     <Fade>
                         <div className={styles.flexItem}>
-                            <img src={profPic} alt='Graduation day.' />
+                            <img src={profPic} alt='Me!' />
                         </div>
                     </Fade>
 
@@ -28,7 +28,13 @@ const AboutPage = (props: props) => {
                                 Hi! I'm Winggo Tse - a software engineer from San Francisco, CA.
                             </h2>
                             <p>
-                                Previously at{' '}
+                                {'Currently at '}
+                                <i>
+                                    <a target='_blank' className={styles.link} 
+                                        href='https://www.helpfulengineering.org/'
+                                        rel='noopener noreferrer'>Helpful Engineering</a>
+                                </i>
+                                {' and '}
                                 <i>
                                     <a target='_blank' className={styles.link} 
                                         href='http://successhub.co/'
@@ -41,12 +47,12 @@ const AboutPage = (props: props) => {
                                 Valley, I'm extremely blessed to have many opportunities in tech. */}
                             <p>
                                 My interests lie in intuitive, smooth software design and development with emerging technologies 
-                                and how we can use them to educate and benefit others in the modern era. I aspire to make change by 
-                                influencing public perception of the world using software, digital media, and data.
+                                and how we can leverage them to educate and benefit others in the modern era. I aspire to make change by 
+                                influencing public perception of the world through software, digital media, and data.
                             </p>
                             <p>
-                                Currently seeking full-time software engineering roles. Primarily experienced in front-end development. 
-                                My favorite tools for the job include React.js, Next.js, Html/Css, Node.js, Express.js, Java, and TypeScript.
+                                Currently seeking full-time software engineering roles. Primarily experienced in full-stack development. 
+                                My favorite tools for the job include TypeScript, React.js, Node.js, Redux.js, Python, Firebase, PostgreSQL, and CI/CD.
                             </p>
                             <p>    
                                 Feel free to drop a{' '}
