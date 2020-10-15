@@ -31,20 +31,10 @@ const AboutPage = (props: props) => {
                                 {'Currently at '}
                                 <i>
                                     <a target='_blank' className={styles.link} 
-                                        href='https://www.helpfulengineering.org/'
-                                        rel='noopener noreferrer'>Helpful Engineering</a>
-                                </i>
-                                {' and '}
-                                <i>
-                                    <a target='_blank' className={styles.link} 
-                                        href='http://successhub.co/'
-                                        rel='noopener noreferrer'>Successhub</a>
+                                        href='https://www.useanvil.com/'
+                                        rel='noopener noreferrer'>Anvil</a>
                                 </i>.
                             </p>
-                            {/* Having recently graduated from University of California, Santa Cruz with a bachelor's 
-                                degree in computer science but now based in San Francisco, the next venture of mine is to 
-                                devote myself to a company with an outward mission. Residing in the heart of Silicon 
-                                Valley, I'm extremely blessed to have many opportunities in tech. */}
                             <p>
                                 My interests lie in intuitive, smooth software design and development with emerging technologies 
                                 and how we can leverage them to educate and benefit others in the modern era. I aspire to make change by 
@@ -63,8 +53,6 @@ const AboutPage = (props: props) => {
                                 <a className={styles.link}
                                 href='mailto: winggo.tse@gmail.com'
                                 rel='noopener noreferrer'>email</a>!
-                                <br></br>
-                                Reply time: <b>0-2 working days</b>
                             </p>
                         </div>
                     </Fade>
